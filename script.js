@@ -3,7 +3,7 @@ function getFormvalue() {
     var lastName = document.forms["form1"]["lname"].value;
 
     // Display the full name using alert()
-    alert( firstName + lastName);
+    alert( firstName+ " "+lastName);
 
     // Prevent form submission
     return false;
